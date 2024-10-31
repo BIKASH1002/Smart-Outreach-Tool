@@ -1,6 +1,24 @@
 # Smart Outreach Tool: An AI-Powered Cold Email Generator
 
-In an increasingly competitive world, making meaningful professional connections has become more challenging than ever. Businesses and individuals need a way to cut through the noise and create outreach messages that are not only relevant but also impactful. Crafting the perfect cold email, one that speaks directly to the recipient’s needs while showcasing the sender’s value, demands time, creativity and precision. Yet, in the fast-paced environment of today, there’s a pressing need for automated, intelligent tools that can streamline this process without sacrificing personalization. This is where the fusion of AI, automation, and optimization plays a pivotal role—delivering solutions that not only save time but ensure every email makes a lasting impression.
+<div align = "justify">
+
+In an increasingly competitive world, making meaningful professional connections has become more challenging than ever. Businesses and individuals need a way to cut through the noise and create outreach messages that are not only relevant but also impactful. Crafting the perfect cold email, one that speaks directly to the recipient’s needs while showcasing the sender’s value, demands time, creativity and precision. Yet, in the fast-paced environment of today, there’s a pressing need for automated, intelligent tools that can streamline this process without sacrificing personalization. This is where the fusion of AI, automation, and optimization plays a pivotal role, delivering solutions that not only save time but ensure every email makes a lasting impression.
+
+## Content
+
+- [Overview](#overview)
+
+- [Setup](#setup)
+
+- [Features](#features)
+
+- [Procedure](#procedure)
+
+- [Workflow](#workflow)
+
+- [User Interface](#user-interface)
+
+- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -116,6 +134,12 @@ The tool’s theme selection offers two modes namely light and dark, based on us
 
 The Smart Outreach Tool simplifies the process of creating personalized cold emails, improving outreach efficiency for businesses. With A/B testing and theme switching, users can tailor their approach and increase engagement with potential clients. Its clean architecture and real-time rendering make it a reliable and effective solution for professional outreach efforts.
 
+</div>
+
 ## Credits
 
 Codebasics: Youtube channel
+
+## License
+
+This project is licensed under the MIT License.
