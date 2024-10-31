@@ -46,8 +46,10 @@ The portfolio links are retrieved from the vector store and injected into the em
 **5) A/B Testing via LLM:**
 
 If the user enables A/B testing, the LLM generates two variations of the email based on the JSON data:
-Variation A: A formal email style focusing on efficiency and professionalism.
-Variation B: A more friendly and conversational tone to foster engagement.
+
+- `Variation A`: A formal email style focusing on efficiency and professionalism.
+
+- `Variation B`: A more friendly and conversational tone to foster engagement.
 
 **6) Cold Email Generation:**
 
