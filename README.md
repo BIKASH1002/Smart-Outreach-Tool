@@ -6,6 +6,16 @@ In an increasingly competitive world, making meaningful professional connections
 
 The Smart Outreach Tool is a modern web-based solution that streamlines the process of generating cold emails. It leverages the power of A/B testing, theme customization and cold email generation based on job descriptions. The tool ensures that users can personalize and optimize outreach efforts, improving connection rates and engagement with potential clients. With a user-friendly interface and adjustable dark and light modes, this tool is designed to provide a seamless experience for professional outreach.
 
+## Setup
+
+- **Visual Studio Code:** for development
+
+- **ChatGroq:** for utilizing cloud LLM framework
+
+- **ChromaDB:** for vectore store
+
+- **Streamlit:** for user interface and deployment 
+
 ## Features
 
 - **Automated Email Generation:** Generate customized cold emails based on job descriptions.
@@ -26,7 +36,7 @@ The user enters the career page URL (job posting URL) into the input field on th
 
 **2) Data Extraction Using LLM (Large Language Model):**
 
-The entered job posting URL is analyzed by the LLM, which scrapes and extracts essential details such as:
+The entered job posting URL is analyzed by the LLM (we used **Llama**), which scrapes and extracts essential details such as:
 
 - Job title
 
@@ -36,16 +46,17 @@ The entered job posting URL is analyzed by the LLM, which scrapes and extracts e
 
 **3) Formatting the Extracted Data to JSON:**
 
-The extracted job data is converted into a JSON structure to organize it efficiently. This JSON serves as the basis for generating the email content.
+The extracted job data is converted into a `JSON` structure to organize it efficiently. This JSON serves as the basis for generating the email content.
 
 **4) Integrating Portfolio Links with Vector Store:**
 
-A vector store is used to match relevant portfolio links from the user’s profile or stored projects, ensuring the generated email highlights these links effectively.
-The portfolio links are retrieved from the vector store and injected into the email content.
+- A vector store (in our case **Chromadb**) is used to match relevant portfolio links from the user’s profile or stored projects, ensuring the generated email highlights these links effectively.
+  
+- The portfolio links are retrieved from the vector store and injected into the email content.
 
 **5) A/B Testing via LLM:**
 
-If the user enables A/B testing, the LLM generates two variations of the email based on the JSON data:
+If the user enables `A/B testing`, the LLM generates two variations of the email based on the JSON data:
 
 - `Variation A`: A formal email style focusing on efficiency and professionalism.
 
@@ -53,8 +64,9 @@ If the user enables A/B testing, the LLM generates two variations of the email b
 
 **6) Cold Email Generation:**
 
-The LLM combines the extracted job description, relevant portfolio links, and the selected tone (A/B test or default) to generate a cold email.
-The email content emphasizes the sender's expertise and relevance to the target job, increasing the chances of a positive response.
+- The LLM combines the extracted job description, relevant portfolio links, and the selected tone (A/B test or default) to generate a cold email.
+
+- The email content emphasizes the sender's expertise and relevance to the target job, increasing the chances of a positive response.
 
 **7) Displaying the Generated Email:**
 
@@ -62,8 +74,14 @@ The generated email(s) are displayed on the interface in code blocks, making the
 
 **8) Theme Selection:**
 
-Users can switch between light and dark modes using the sidebar for a customized experience.
+Users can switch between `light and dark modes` using the sidebar for a customized experience.
 
 **9) Real-time Rendering:**
 
 All processes are executed and rendered in real-time on the Streamlit interface, ensuring a seamless and dynamic user experience.
+
+## Workflow
+
+![architecture](https://github.com/user-attachments/assets/88e5fee6-381d-4d30-a535-243b27ebba10)
+
+
