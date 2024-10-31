@@ -58,9 +58,9 @@ The extracted job data is converted into a `JSON` structure to organize it effic
 
 If the user enables `A/B testing`, the LLM generates two variations of the email based on the JSON data:
 
-- `Variation A`: A formal email style focusing on efficiency and professionalism.
+- **Variation A:** A formal email style focusing on efficiency and professionalism.
 
-- `Variation B`: A more friendly and conversational tone to foster engagement.
+- **Variation B:** A more friendly and conversational tone to foster engagement.
 
 **6) Cold Email Generation:**
 
@@ -82,6 +82,40 @@ All processes are executed and rendered in real-time on the Streamlit interface,
 
 ## Workflow
 
-![architecture](https://github.com/user-attachments/assets/88e5fee6-381d-4d30-a535-243b27ebba10)
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/88e5fee6-381d-4d30-a535-243b27ebba10" alt = "workflow" width = 50%>
+</div>
 
+## User Interface
 
+**1. Main User Interface**
+
+The user interface provides easy navigation and access to all core features, including email generation and theme switching.
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/33c2ef30-ef23-4dcc-9149-d29dbb17c0b5" alt = "workflow" width = 50%>
+</div>
+
+**2. A/B Testing**
+
+With A/B testing, users can generate two different versions of emails to analyze which version performs better.
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/d1cc3a0f-2c3c-441d-8fcb-9dad4eb883e9" alt = "workflow" width = 50%>
+</div>
+
+**3. Theme Selection**
+
+The tool’s theme selection offers two modes namely light and dark, based on user needs and comfort.
+
+<div align = "center">
+  <img src = "https://github.com/user-attachments/assets/73b36fd1-8205-448b-adb7-ca17ad549ff2" alt = "workflow" width = 50%>
+</div>
+
+## Conclusion
+
+The Smart Outreach Tool simplifies the process of creating personalized cold emails, improving outreach efficiency for businesses. With A/B testing and theme switching, users can tailor their approach and increase engagement with potential clients. Its clean architecture and real-time rendering make it a reliable and effective solution for professional outreach efforts.
+
+## Credits
+
+Codebasics: Youtube channel
