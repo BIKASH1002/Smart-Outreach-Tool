@@ -1,3 +1,5 @@
+![banner](https://github.com/user-attachments/assets/fdf88522-f4b5-4174-aad8-2fdc3c308061)
+
 # Smart Outreach Tool: An AI-Powered Cold Email Generator
 
 <div align = "justify">
