@@ -132,7 +132,7 @@ The tool’s theme selection offers two modes namely light and dark, based on us
 
 ## Conclusion
 
-The Smart Outreach Tool simplifies the process of creating personalized cold emails, improving outreach efficiency for businesses. With A/B testing and theme switching, users can tailor their approach and increase engagement with potential clients. Its clean architecture and real-time rendering make it a reliable and effective solution for professional outreach efforts.
+The Smart Outreach Tool simplifies the process of creating personalized cold emails, improving outreach efficiency for businesses. With A/B testing, users can tailor their approach and increase engagement with potential clients. Its clean architecture and real-time rendering make it a reliable and effective solution for professional outreach efforts.
 
 </div>
 
